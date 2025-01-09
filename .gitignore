@@ -1,0 +1,47 @@
+# General system files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+bin/
+obj/
+*.o
+*.so
+*.dll
+*.exe
+*.dylib
+
+# Qt-specific files
+*.pro.user            # Benutzerbezogene Qt-Projektdateien
+*.qmake.stash         # Zwischengespeicherte qmake-Daten
+*.qmake.cache         # CMake-Cache-Dateien für Qt-Projekte
+moc_*.cpp             # Von moc generierte Dateien
+qrc_*.cpp             # Von rcc generierte Dateien
+ui_*.h                # Von uic generierte Header-Dateien
+*.moc
+*.rcc
+*.qrc
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
